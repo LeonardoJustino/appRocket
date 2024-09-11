@@ -38,3 +38,7 @@ if/else -> se/senão
 metodos de array : push, [find, forEach, filter] : HOF (Higher Order Functions)
 TODA Higher Order Functions RECEBE UMA FUNÇÃO
 spread operator = ... -> ele pega um novo array e o antigo é jogado no novo array
+
+ Javascript Object Notation (.json)
+ JSON.parse() transforma de JSON para JS
+ JSON.stringify(): transforma de JS para JSON
