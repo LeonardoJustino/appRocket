@@ -28,13 +28,14 @@ const listarMetas = async () =>{
         choices: [...metas], //pega tudo que ta dentro de let metas e joga para dentro de choices
         instructions: false
     })
+    metas.forEach((m) => { //aqui vou desmarcar todas as metas
+        m.checked = false //usamos esse forEach pq se não quando marcar e desmarcar alguma meta ele aparece novamente que está marcado, essa função serve para acabar com isso.
+    })
      if(respostas.length == 0){
         console.log("Nenhuma meta selecionada!")
         return 
      }
-     metas.forEach((m) => { //aqui vou desmarcar todas as metas
-        m.checked = false //usamos esse forEach pq se não quando marcar e desmarcar alguma meta ele aparece novamente que está marcado, essa função serve para acabar com isso.
-    })
+   
 
      respostas.forEach((resposta) => { //forEach vai olhar um por um 
         const meta = metas.find((m) => {
