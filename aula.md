@@ -34,3 +34,7 @@ promise funciona assim "chega no select que esta com o await, ele pausa a aplica
 
 condicionais
 if/else -> se/senão
+
+metodos de array : push, [find, forEach, filter] : HOF (Higher Order Functions)
+TODA Higher Order Functions RECEBE UMA FUNÇÃO
+spread operator = ... -> ele pega um novo array e o antigo é jogado no novo array
