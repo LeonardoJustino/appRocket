@@ -5,7 +5,7 @@ O projeto foi feito totalmento com JavaScript, juntamente com o professor [Mayk 
 
 # Como rodar o programa
 
-- Primeiramente faça download zip do programa apertando no botão <>code
+- Primeiramente faça download zip do programa apertando no botão ``<>code``
 - Extraia para um local onde vai ser fácil acesso
 - Entre no terminal Git Bash
 - Acesse a página e logo entre nela
