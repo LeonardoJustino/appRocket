@@ -11,9 +11,9 @@ O projeto foi feito totalmento com JavaScript, juntamente com o professor [Mayk 
 - Acesse a página e logo entre nela
     
     ## Comandos Necessários para andar pelas pastas
-    - pwd - onde eu estou
-    - ls - ver pastas
-    - cd nomeDoArquivo - entrar no arquivo
-    - npm install - instalar todas as dependencias 
+    - ``pwd`` - onde eu estou
+    - ``ls`` - ver pastas
+    - ``cd`` nomeDoArquivo - entrar no arquivo
+    - ``npm install`` - instalar todas as dependencias 
 - Após acessar a pasta pelo terminal, digite ``npm install`` para baixar todas as dependencias do programa.
 - Para startar o programa é só escrever ``node index.js``  e aproveitar o programa
